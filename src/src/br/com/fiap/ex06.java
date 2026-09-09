@@ -6,34 +6,23 @@ public class ex06 {
     public static void main(String[]args){
 
         Scanner scan = new Scanner(System.in);
-
-        int res;
-        int num;
-
-        System.out.println("Calculadora de fatorial:");
-        System.out.println();
-
-        System.out.printf("Digite o número que deseja calcular o fatorial:");
+        int num = 0;
+        System.out.println("Calculadora de tabuada:");
+        System.out.println("Digite o número:");
         num = scan.nextInt();
 
-        res = calculadoraFatorial(num);
-
-        System.out.println("O fatorial de " + (num) + " é igual a: "+res );
+        calculadoraTabuada(num);
 
     }
-    public static int calculadoraFatorial(int numero){
-
-        int fatorial =1;
-
-        if(numero<0){
-            System.out.println("O número não pode ser negativo!");
-
+    public static int calculadoraTabuada(int numero){
+        int contador = 1;
+        while(contador < 11){
+            System.out.println(contador + "x" + numero + "= " + contador*numero);
+            contador++;
         }
 
-        for(int i = 1; i<=numero; i++ ){
-            fatorial*=i;
-        }
-        return fatorial;
+
+        return numero;
     }
 
 }
