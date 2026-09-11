@@ -6,6 +6,9 @@
 |------|-----|
 | Gabriel Ardito | 568318 |
 | João Gonzales | 568166 |
+| Giovanna Oliveira | 566643 |
+| Marianne Mukai | 568001 |
+| Maria Druzeic | 566634 |
 
 ## Descrição
 
